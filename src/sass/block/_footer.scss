@@ -1,0 +1,85 @@
+.footer {
+    height: 440px;
+    &__wrapper {
+        margin: 79px auto 40px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    &__logo {
+        margin-left: 220px;
+    }
+    &__links {
+        margin-right: 170px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 570px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        a {
+            text-decoration: none;
+            color: black;
+            margin-top: 10px;
+        }
+        a:hover {
+            color: $main-color;
+            text-decoration: underline;
+        }
+        &_about {
+            display: flex;
+            flex-direction: column;
+            margin-right: 50px;
+        }
+        &_features {
+            display: flex;
+            flex-direction: column;
+            margin-right: 50px;
+        }
+        &_medium {
+            display: flex;
+            flex-direction: column;
+            margin-right: 50px;
+        }
+        &_contacts {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__divider {
+        display: block;
+        margin: 0 auto;
+        margin-top: 56px;
+        width: 1088px;
+        height: 2px;
+        background: #DBDBDB;
+    }
+    &__wrapper-policy {
+        margin: 40px 220px auto 220px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    &__policy {
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: $main-color;
+            text-decoration: underline;
+        }
+        a:nth-child(1) {
+            margin-right: 35px;
+        }
+    }
+}

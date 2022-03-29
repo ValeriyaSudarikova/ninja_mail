@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.scroll-up{
+    position: fixed;
+    right: 30px;
+}
+
+@import 'block/text';
+@import 'block/nav';
+@import 'block/promo';
+@import 'block/adds';
+@import 'block/btn';
+@import 'block/advice';
+@import 'block/personalities';
+@import 'block/brands';
+@import 'block/plans';
+@import 'block/footer';
+@import 'block/modal';

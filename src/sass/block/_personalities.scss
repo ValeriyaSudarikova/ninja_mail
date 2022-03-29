@@ -1,0 +1,78 @@
+.personalities {
+    height: 530px;
+    margin-top: 100px;
+    position: relative;
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    &__card-img {
+        position: relative;
+    }
+    &__card-name {
+        position: absolute;
+        top: 140px;
+        margin-left: 27px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 40px;
+        color: #fff;
+    }
+    &__card-descr {
+        position: absolute;
+        top: 190px;
+        margin-left: 27px;
+    }
+    &__ads {
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 900px;
+        text-align: center;
+    }
+    form {
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__email-form {
+        padding-left: 10px;
+        width: 420px;
+        height: 65px;
+        background: #FFFFFF;
+        border: 1px solid #9F9F9F;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 21px;
+    }
+    &__form-submit {
+        padding: 19px 32px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 21;
+        font-weight: 900;
+        border: none;
+        background: $main-color;
+        color:#fff;
+        transition: all 1s ease;
+        &:hover {
+            border: 3px solid $main-color;
+            background: white;
+            color: $main-color;
+        }
+    }
+    &__thanks {
+        margin-top: 20px;
+        display: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        color:$main-color;
+    }
+
+}

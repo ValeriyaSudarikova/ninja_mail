@@ -1,0 +1,45 @@
+.title__fz17 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    color:black;
+    text-transform: uppercase;
+    &_white {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: white;
+    }
+}
+.title_fz59 {
+    font-family: 'Playfair Display' serif;
+    font-size: 59px;
+    font-weight: 900;
+    line-height: 70px;
+}
+.title__fz19 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+    &_white {
+        color:white;
+    }
+}
+.title__fz44 {
+    font-family: 'Playfair Display' serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 48px;
+}
+.title__fz16 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    &_bold {
+        font-weight: 800;
+    }
+}

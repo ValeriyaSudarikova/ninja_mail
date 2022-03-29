@@ -1,0 +1,60 @@
+.menu {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 102px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &__label {
+        margin-top: 15px;
+    }
+    &__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;    
+        list-style: none;
+
+
+        :nth-child(2) {
+            margin-right: 50px;
+        }
+    }
+    &__item {
+        margin-top: 5px;
+        margin-right: 38px;
+        position: relative;
+        ::before {
+            content: "";
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 36px;
+            left: -15px;
+            background-color: $main-color;
+        }
+        :hover {
+            color: $main-color;
+        }                
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+    }
+    &__sign-up {
+        padding: 10px 20px;
+        border: none;
+        width: 168px;
+        height: 41px;
+        background-color: $main-color;
+        transition: all 1s ease;
+        text-decoration: none;
+    } 
+    &__sign-up:hover {
+        border: 3px solid $main-color;
+        background: white;
+        color: $main-color;
+    } 
+        
+}

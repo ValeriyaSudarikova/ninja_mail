@@ -1,0 +1,17 @@
+.plans {
+    height: 365px;
+    background: $main-color;
+    color: white;
+    &__header {
+        padding-top: 80px;
+        text-align: center;
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin: 50px auto 90px auto;
+    }
+    &__btn:hover {
+        border-color: #fff;
+    }
+}

@@ -1,0 +1,46 @@
+.adds {
+    position: relative;
+    padding-top:100px;
+    height: 700px;
+    &__bg {
+        z-index: -1;
+        position: absolute;
+        top: -300px;
+    }
+    &__img {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 30px;
+        left: calc(50% - 944px/2);
+        z-index: 3;
+    }
+    &__header {
+        font-family: PlayfairDisplay-Black;
+        font-size: 60px;
+        line-height: 80px;
+        font-weight: 900;
+        color: white;
+        position: absolute;
+        left: calc(50% - 655px/2 + 0.5px);
+        top: 163px;
+        z-index: 3;
+    }
+    &__descr {
+        border: 5px solid $main-color;
+        color: $main-color;
+        background: #FFFFFF;
+        position: absolute;
+        width: 200px;
+        height: 65px;
+        left: calc(50% - 200px/2);
+        top: 304px;
+        z-index: 3;
+    }
+    a {
+        position: absolute;
+        left: calc(50% - 200px/2);
+        top: 304px;
+        z-index: 3;
+    }
+}
